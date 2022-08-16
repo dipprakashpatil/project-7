@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background-color: #fff;
+}
+
+body {
+  width: 1440px;
+  margin: 20px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+.nav-items h5 {
+  font-family: "poppins", sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  padding: 0px 25px;
+  font-weight: 60;
+}
+
+h5.active-item {
+  color: #ff5e35;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  margin-top: 60px;
+}
+
+.left-section h3 {
+  font-size: 60px;
+  font-family: "poppins", sans-serif;
+}
+
+.left-section h1 {
+  font-size: 70px;
+  font-family: "Fredoka One";
+  font-weight: 40;
+  margin-left: 15px;
+}
+
+.sub-headlines {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+h5.sub-headline {
+  margin-bottom: 20px;
+  font-size: 40px;
+  padding-left: 20px;
+  font-family: "poppins", sans-serif;
+}
+
+h5.sub-headline img {
+  background-color: #ff5e35;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 2px 2px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 90px;
+  color: #b3b3b3;
+}
+
+.action-btns {
+  margin-top: 60px;
+}
+.action-btn {
+  padding: 15px 40px;
+  font-family: "poppins", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  background-color: #ff5e35;
+  border-radius: 20px;
+  margin-left: 20px;
+  border: 2px solid #ff5e35;
+}
+
+.right-section {
+  position: relative;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.headphone-div {
+  display: flex;
+}
+.headphones {
+  margin-left: 60px;
+  top: 20px;
+  margin-top: 20px;
+}
+
+.discount {
+  position: absolute;
+  top: 20px;
+  margin-top: 320px;
+  height: 220px;
+  background: transparent;
+  /* margin-right: 5px; */
+  margin-right: 10px;
+  right: px;
+  left: -9px;
+}
+
+.discount-content {
+  margin-top: 420px;
+  background: transparent;
+  z-index: 1;
+}
+
+.discount-content :is(h1, h4) {
+  margin-left: 50px;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  width: 1px;
+  font-family: "poppins", sans-serif;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 50px 0px;
+}
+.dot {
+  margin: 0px 6px;
+}
+.yellow-dot {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background-color: #fbd101;
+}
+.tomato-dot {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background-color: #000;
+}
+.black-dot {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background-color: #ff5e35;
+}
